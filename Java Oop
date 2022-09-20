@@ -1,0 +1,20 @@
+what is opp?
+opp stand for object oriented programming
+why used opp?
+solving a real world problem. most of the time opp is used in complex apps, system.
+what is class and object?
+class is  a blueprint for creating objects.(a particular data structure), providing initial values for state (member variables or attributes),
+and implementations of behavior (member functions or methods).
+what is object?
+An object in OOPS is nothing but a self-contained component which consists of methods and properties
+to make a particular type of data useful.
+For example color name, table, bag, barking. When you send a message to an object,
+you are asking the object to invoke or execute one of its methods as defined in the class
+
+How to model a problem in opp?
+we identify the following
+
+Noun--->Class--->Employee
+Adjective----->Attributes------>name, age,salary
+verb---->Methods---->getSalay(),increment().
+

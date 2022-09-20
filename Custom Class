@@ -1,0 +1,64 @@
+Writing A Custom Class
+we can write a custom class as follows
+suppose we want to create a class named Employee
+Syntax
+public class classname {
+     datatype attribute-1
+     datatype attribute-2
+     ....................
+     datatype attribute-n
+}
+code
+class Employee {
+int id;-->attribute-1
+String name;-->attribute-2
+}
+when used public then java throws an error. when you don't mention access
+modifier then it's get default access modifier (public)
+NB: in one java-file can contain one public class.
+now we have to create an object to access the class
+Employee objectname = new Employee();
+Employee fahim = new Employee();
+
+set the attribute value
+object_name.attribute_name = value (number)
+object_name.attribute_name = "String value"
+fahim.id=6;
+fahim.name='fahim'
+
+access the class
+object_name.attribute_name
+fahim.id;
+fahim.name;
+
+real world object
+properties + behaviour
+object in oop
+attribute + method
+
+we can also define a method inside the custom class
+class Employee {
+int id;-->attribute-1
+String name;-->attribute-2
+//define a method named print_details
+public void printDetails(){
+//now print the attributes
+ System.out.println("my id is: "+id);
+ System.out.println("my name is: "+name);
+}
+public int getSalary(){
+return salary;
+}
+}
+
+we can add more method to our custom class
+ Employee nijhum = new Employee();
+        nijhum.id=32;
+        nijhum.name="Nijhum";
+        nijhum.salary=999999;
+        nijhum.printDetails();
+
+to print the salary
+datatype salary = object_name.getSalary();
+NB: java throws an error because we didn't define the getSalary() method yet
+now creating the new method inside the Employee class named getSalary();

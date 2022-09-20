@@ -1,0 +1,28 @@
+Terminologies
+
+Abstraction
+Abstraction hiding internal details and show only essential information
+Encapsulation
+Encapsulation is act like putting various components together(in a capsule)
+camera, storage, memory, speaker these components are together made a
+video calling device. here camera, storage, memory, speaker all have
+different functionalities. But they all are together made a system.
+this his Encapsulation.
+Another example is car. car has an engine, has a music system, seat,
+wheels,driving steering,looking glass, headlight,trunk etc.
+
+in java, Encapsulation simply means that the sensitive data hide from
+the users.
+
+Inheritance
+Inheritance is act like deriving new things from existing things
+Rickshaw--->E-Rickshaw (Additional more features)
+phone--->Smart phone (Additional more features)
+                                                Implements DRY!
+
+Polymorphism
+Polymorphism is one entity many forms
+Smartphone-->phone,        Smartphone-->Calculator
+Smartphone-->MP3 Player,   Smartphone-->Camera
+
+
