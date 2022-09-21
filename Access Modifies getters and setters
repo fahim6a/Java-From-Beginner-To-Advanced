@@ -1,0 +1,33 @@
+what is access modifiers
+access modifiers specialized where a property/method is accessible
+there are 4 types of access modifiers
+1 public
+2 private
+3 protected
+4 default
+
+private access modifiers
+private access modifiers access only using methods
+here implements data hiding terminology(abstraction)
+for access the private access modifiers we need to construct getter and setters
+
+getters and setters syntax
+class class_name{
+datatype attribute_name1
+datatype attribute_name2
+.........................
+datatype attribute_name n
+
+now create setter and getter
+public datatype set_attribute_name(){
+ //attribute
+}
+public datatype get_attribute_name(){
+ //attribute
+}
+}
+
+NB: setter never return any things
+NB: only getters return attribute properties/values
+
+

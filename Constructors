@@ -1,0 +1,25 @@
+Constructor
+Constructor in java, A members function used to initialize an object while creating it.
+Syntax
+public class_Name(){
+datatype attribute_values
+}
+class myEmployee1{
+private int id;
+private String name;
+ public myEmployee1(){
+         id=6;
+         name ="Fahim";
+         //here setter and getter
+         .......................
+    }
+    }
+    automatically set the values because of constructor name is same as class_name
+    public class Constructor {
+        public static void main(String[] args) {
+         myEmployee1 fahim = new myEmployee1();
+              //print using constructor
+                 System.out.println(fahim.getId());
+                 System.out.println(fahim.getName());
+             }
+         }
