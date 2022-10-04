@@ -1,0 +1,33 @@
+once you had made two superClass and implements those superClass
+then multiple inheritance faced a problem
+is there are any solutions?
+yes, cpp(c++) already has solved this problem
+Nevertheless, you can access multiple inheritance using interface.
+java is a solid and sound oop language.
+
+note:
+1.interface in java a bit like a class but it has significant
+difference
+2. an interface has only method signature, field which is constant
+and default methods
+3. you can override your properties in the class but not necessary
+4. the class implementing the interface must declare the methods
+but not necessary the field.
+5. you are not able to create an object of interface class
+but java creators has been provided a reference option and
+why not you are taking the full advantage of it. do it.
+6. interface methods are public by defaults
+
+interface syntax
+first you must have to mention interface keyword.
+
+interface name{
+//methods name ()
+}
+
+//implements is a keyword. you must have declared.
+class name implements interfaceName{
+//methods name (){
+//must be same method which already have been declared in the interface
+}
+}
